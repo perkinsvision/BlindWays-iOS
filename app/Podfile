@@ -1,0 +1,53 @@
+platform :ios, '9.3'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'BlindWays' do
+
+  # External
+
+  pod 'Alamofire',          '~>4.0'
+  pod 'KeychainAccess',     '~>3.0'
+  pod 'Google/Analytics',   '~>3.0'
+  pod 'GoogleConversionTracking', '~> 3.4.0'
+  pod 'Firebase/Messaging', '~>3.0'
+  pod 'SwiftGen'
+  pod 'SwiftLint'
+  pod 'SWXMLHash'
+  pod 'FXForms'
+
+  # Facebook
+
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+
+  # Raizlabs
+
+  pod 'RZVinyl',                     :git => 'https://github.com/Raizlabs/RZVinyl.git', :commit => 'f4f1e92c999e9693d020120367ec1a99df86f85d'
+  pod 'RZImport',                    '~>3.0.0'
+  pod 'Swiftilities',                '0.8.0'
+  pod 'Anchorage',                   '~>3.0'
+  pod 'BonMot',                      '~>4.0'
+  pod "RZUtils/Components/RZAbout",  :git => 'https://github.com/Raizlabs/RZUtils.git', :commit => 'dd51dc50cd71a735daa7ee549ad4e32c57834d00'
+  pod 'BoardingPass'
+
+  target 'BlindWaysTests' do
+
+    inherit! :search_paths
+    pod 'Nimble',         '~>5.0'
+    pod 'OHHTTPStubs',    '~>5.0'
+
+    # Not ideal, but needed because tests are run in app hosted mode
+    # TODO: Fix this
+    pod 'Google/Analytics',   '~>3.0'
+    pod 'Firebase/Messaging', '~>3.0'
+
+  end
+
+  post_install do | installer |
+    require 'fileutils'
+    FileUtils.cp_r('Pods/Target Support Files/Pods-BlindWays/Pods-BlindWays-acknowledgements.plist', 'BlindWays/Resources/Acknowledgements.plist', :remove_destination => true)
+  end
+
+end

@@ -1,0 +1,193 @@
+PODS:
+  - Alamofire (4.1.0)
+  - Anchorage (3.0.0)
+  - BoardingPass (0.2.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - BonMot (4.0.1)
+  - FBSDKCoreKit (4.17.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.17.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.17.0):
+    - FBSDKCoreKit
+  - Firebase/Core (3.9.0):
+    - FirebaseAnalytics (= 3.5.1)
+    - FirebaseCore (= 3.4.4)
+  - Firebase/Messaging (3.9.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.1)
+  - FirebaseAnalytics (3.5.1):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.4.4):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.8)
+  - FirebaseMessaging (1.2.1):
+    - FirebaseAnalytics (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+  - FXForms (1.2.14)
+  - Google/Analytics (3.0.3):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - GoogleAnalytics (3.17.0)
+  - GoogleConversionTracking (3.4.0)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.0)
+  - GoogleToolboxForMac/Logger (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - GoogleToolboxForMac/NSData+zlib (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - KeychainAccess (3.0.1)
+  - Nimble (5.1.1)
+  - OHHTTPStubs (5.2.2):
+    - OHHTTPStubs/Default (= 5.2.2)
+  - OHHTTPStubs/Core (5.2.2)
+  - OHHTTPStubs/Default (5.2.2):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (5.2.2):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (5.2.2):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (5.2.2)
+  - RZImport (3.0.1)
+  - RZUtils/Components/RZAbout (2.6.0)
+  - RZVinyl (3.0.1):
+    - RZVinyl/Extensions (= 3.0.1)
+  - RZVinyl/Core (3.0.1)
+  - RZVinyl/Extensions (3.0.1):
+    - RZImport (~> 3.0)
+    - RZVinyl/Core
+  - SwiftGen (3.0.1)
+  - Swiftilities (0.8.0):
+    - Swiftilities/All (= 0.8.0)
+  - Swiftilities/AccessibilityHelpers (0.8.0)
+  - Swiftilities/Acknowledgements (0.8.0):
+    - Swiftilities/Deselection
+    - Swiftilities/LicenseFormatter
+  - Swiftilities/All (0.8.0):
+    - Swiftilities/AccessibilityHelpers
+    - Swiftilities/Acknowledgements
+    - Swiftilities/ColorHelpers
+    - Swiftilities/Deselection
+    - Swiftilities/DeviceSize
+    - Swiftilities/FormattedTextField
+    - Swiftilities/Forms
+    - Swiftilities/HairlineView
+    - Swiftilities/Keyboard
+    - Swiftilities/LicenseFormatter
+    - Swiftilities/Logging
+    - Swiftilities/Math
+    - Swiftilities/RootViewController
+    - Swiftilities/StackViewHelpers
+    - Swiftilities/TintedButton
+    - Swiftilities/Views
+  - Swiftilities/ColorHelpers (0.8.0)
+  - Swiftilities/Deselection (0.8.0)
+  - Swiftilities/DeviceSize (0.8.0)
+  - Swiftilities/FormattedTextField (0.8.0)
+  - Swiftilities/Forms (0.8.0)
+  - Swiftilities/HairlineView (0.8.0)
+  - Swiftilities/Keyboard (0.8.0)
+  - Swiftilities/LicenseFormatter (0.8.0)
+  - Swiftilities/Logging (0.8.0)
+  - Swiftilities/Math (0.8.0)
+  - Swiftilities/RootViewController (0.8.0)
+  - Swiftilities/StackViewHelpers (0.8.0)
+  - Swiftilities/TintedButton (0.8.0)
+  - Swiftilities/Views (0.8.0)
+  - SwiftLint (0.16.0)
+  - SWXMLHash (3.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Anchorage (~> 3.0)
+  - BoardingPass
+  - BonMot (~> 4.0)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Firebase/Messaging (~> 3.0)
+  - FXForms
+  - Google/Analytics (~> 3.0)
+  - GoogleConversionTracking (~> 3.4.0)
+  - KeychainAccess (~> 3.0)
+  - Nimble (~> 5.0)
+  - OHHTTPStubs (~> 5.0)
+  - RZImport (~> 3.0.0)
+  - RZUtils/Components/RZAbout (from `https://github.com/Raizlabs/RZUtils.git`, commit `dd51dc50cd71a735daa7ee549ad4e32c57834d00`)
+  - RZVinyl (from `https://github.com/Raizlabs/RZVinyl.git`, commit `f4f1e92c999e9693d020120367ec1a99df86f85d`)
+  - SwiftGen
+  - Swiftilities (= 0.8.0)
+  - SwiftLint
+  - SWXMLHash
+
+EXTERNAL SOURCES:
+  RZUtils:
+    :commit: dd51dc50cd71a735daa7ee549ad4e32c57834d00
+    :git: https://github.com/Raizlabs/RZUtils.git
+  RZVinyl:
+    :commit: f4f1e92c999e9693d020120367ec1a99df86f85d
+    :git: https://github.com/Raizlabs/RZVinyl.git
+
+CHECKOUT OPTIONS:
+  RZUtils:
+    :commit: dd51dc50cd71a735daa7ee549ad4e32c57834d00
+    :git: https://github.com/Raizlabs/RZUtils.git
+  RZVinyl:
+    :commit: f4f1e92c999e9693d020120367ec1a99df86f85d
+    :git: https://github.com/Raizlabs/RZVinyl.git
+
+SPEC CHECKSUMS:
+  Alamofire: e266cf991b933498df791e645e0d8ac294492153
+  Anchorage: 0b7244e31069ebc61a4e9611bc670feb7f24a3e2
+  BoardingPass: c376518f962a4136b3a2d49d4b9592c21345b228
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  BonMot: d8c3548412fcbb3b5f877f2097a5ca23f9adf5b4
+  FBSDKCoreKit: 30a21d2d7b92984b3d80497113433c00824c35e9
+  FBSDKLoginKit: 42b7129ac0373ca99eaf4cbebf4d07bd42371f59
+  FBSDKShareKit: 9b573d03fbee36cbaf42d5bb1f2bc019e0d72347
+  Firebase: ff77ffb77b317c3720fef57a60e9335cebf962e6
+  FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
+  FirebaseCore: d0ed25f27b6f9158eccc439f1be6f92e81207e28
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  FirebaseMessaging: acf66347e43c5637c697060c3001d25c809a4131
+  FXForms: 724500c0c3f3eb3ba1004b3b83abcee55d3daf18
+  Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleConversionTracking: ca8c89abda2bd28bb6472b316eeb4ece9264e279
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  KeychainAccess: 017ea25e313a49eda10bb19b0bb0760fb1edfe1a
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  OHHTTPStubs: 34d9d0994e64fcf8552dbfade5ce82ada913ee31
+  RZImport: ac35279cf1be1aa79bef08508dba72487e841189
+  RZUtils: a1f7597db038c81bd020626ce344211c6a8e6451
+  RZVinyl: 90724cafcf7cd97c8b5db1cecec4804acac3c4d3
+  SwiftGen: 5f69367fae99c11d52d1ab9d45dcf10a3e59b8ef
+  Swiftilities: 02953a859e5b50bd1d670c70704ca38720850cfa
+  SwiftLint: 90665265ae50b58167c674a11c680bbabe9d6513
+  SWXMLHash: e0f6935971f01b06fb228cf435510d998ecde647
+
+PODFILE CHECKSUM: 706c2b21e72ac56a1bf116a4acb98d090bae712c
+
+COCOAPODS: 1.1.1

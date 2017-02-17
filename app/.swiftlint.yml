@@ -1,0 +1,37 @@
+disabled_rules:
+  - cyclomatic_complexity
+  - file_length
+  - function_body_length
+  - function_parameter_count
+  - line_length
+  - nesting
+  - todo
+  - type_body_length
+
+variable_name:
+  excluded:
+    - id
+    - rz_trimmed
+    - rz_sentenceTerminated
+    - rz_backgroundColor
+    - rz_titleColor
+    - rz_tintColor
+    - rz_reuseID
+    - rz_topPresentedViewController
+    - unhighlightNextClueButtonNotificationName
+    - leftToRightAccessibilityEmptyReviewLabels
+
+type_name:
+  excluded:
+    - cancel_token_t
+
+excluded:
+  - Pods
+  - BlindWaysTests
+
+trailing_comma:
+    mandatory_comma: true
+
+opt_in_rules:
+  - vertical_whitespace
+  - operator_usage_whitespace

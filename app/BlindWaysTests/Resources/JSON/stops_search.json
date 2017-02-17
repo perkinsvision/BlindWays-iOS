@@ -1,0 +1,95 @@
+[
+  {
+    "latest_reported_user_location": {
+      "lat": 42.3568145698331,
+      "lng": -71.0572496988541
+    },
+    "location": {
+      "lat": 42.356837,
+      "lng": -71.057414
+    },
+    "description": null,
+    "is_saved": false,
+    "id": 5752,
+    "routes": [
+      {
+        "name": "92",
+        "long_name": null,
+        "gtfs_id": "92",
+        "short_name": "92",
+        "id": 100
+      },
+      {
+        "name": "93",
+        "long_name": null,
+        "gtfs_id": "93",
+        "short_name": "93",
+        "id": 101
+      }
+    ],
+    "name": "Devonshire St @ Milk St",
+    "gtfs_id": "6548",
+    "needs_more_clues": false
+  },
+  {
+    "latest_reported_user_location": {
+      "lat": 42.3569634392592,
+      "lng": -71.0575961415728
+    },
+    "location": {
+      "lat": 42.356727,
+      "lng": -71.05748
+    },
+    "description": null,
+    "is_saved": false,
+    "id": 1263,
+    "routes": [
+      {
+        "name": "15",
+        "long_name": null,
+        "gtfs_id": "15",
+        "short_name": "15",
+        "id": 26
+      },
+      {
+        "name": "39",
+        "long_name": null,
+        "gtfs_id": "39",
+        "short_name": "39",
+        "id": 52
+      },
+      {
+        "name": "57",
+        "long_name": null,
+        "gtfs_id": "57",
+        "short_name": "57",
+        "id": 65
+      }
+    ],
+    "name": "Milk St @ Devonshire St",
+    "gtfs_id": "16539",
+    "needs_more_clues": true
+  },
+  {
+    "latest_reported_user_location": null,
+    "location": {
+      "lat": 42.356733,
+      "lng": -71.058942
+    },
+    "description": null,
+    "is_saved": false,
+    "id": 5749,
+    "routes": [
+      {
+        "name": "57",
+        "long_name": null,
+        "gtfs_id": "57",
+        "short_name": "57",
+        "id": 65
+      }
+    ],
+    "name": "350 Washington St",
+    "gtfs_id": "6539",
+    "needs_more_clues": false
+  }
+]
