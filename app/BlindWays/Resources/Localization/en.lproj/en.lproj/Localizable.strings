@@ -1,0 +1,884 @@
+// COMMON
+
+/* Empty state error */
+"empty.state.generic.error" = "An error occurred while attempting to access this data.";
+
+/* Empty state no data */
+"empty.state.generic.no.data" = "There were no results found.";
+
+/* No internet */
+"empty.state.generic.no.internet" = "There is a problem connecting to the internet.";
+
+/* Unknown error */
+"error.unknown.message" = "An unknown error has occurred";
+
+/* Cancel text */
+"common.cancel" = "Cancel";
+
+/* Close text */
+"common.close" = "Close";
+
+/* Done text */
+"common.done" = "Done";
+
+/* OK text */
+"common.ok" = "OK";
+
+/* On text */
+"common.on" = "On";
+
+/* Off text */
+"common.off" = "Off";
+
+/* Submit text */
+"common.submit" = "Submit";
+
+/* Success text */
+"common.success" = "Success";
+
+/* Problem text */
+"common.problem" = "Problem";
+
+/* Try again text */
+"common.try.again" = "Try Again";
+
+/* Refresh text */
+"common.refresh" = "Refresh";
+
+/* Continue text */
+"common.continue" = "Continue";
+
+/* Now text */
+"common.now" = "Now";
+
+/* Truncation */
+"common.truncation" = "%@…";
+
+/* Button to dismiss an alert */
+"common.dismiss" = "Dismiss";
+
+/* Concatenate two sentences */
+"common.concatenate.two.sentences" = "%1$@ %2$@";
+
+// ERRORS
+
+/* The email addressed you tried to use to sign up is already in use */
+"error.email.already.in.use" = "There is already an account with that email address. Did you try signing in?";
+
+/* The email/password used to sign in do not match an existing account */
+"error.invalid.credentials" = "The email and password you entered do not match. Please try again.";
+
+// ONBOARDING
+
+/* Onboarding Welcome Screen Main Message */
+"onboarding.mainMessage.welcomeScreen" = "BlindWays picks up where GPS leaves off, closing the gap for riders with visual impairments.";
+
+/* Onboarding Location Screen Main Message */
+"onboarding.mainMessage.locationScreen" = "We use location to connect you to relevant bus stops.";
+
+/* Onboarding Notifications Screen Main Message */
+"onboarding.mainMessage.notificationsScreen" = "We’ll notify you about real time developments and opportunities to help.";
+
+/* Onboarding Join Screen Main Message */
+"onboarding.mainMessage.joinScreen" = "Identify landmarks around bus stops to give fellow riders confidence and independence.";
+
+/* Onboarding Welcome Screen Main Action Title */
+"onboarding.mainActionTitle.welcomeScreen" = "Continue";
+
+/* Onboarding Location Screen Main Action Title */
+"onboarding.mainActionTitle.locationScreen" = "Enable Location";
+
+/* Onboarding Notifications Screen Main Action Title */
+"onboarding.mainActionTitle.notificationsScreen" = "Enable Notifications";
+
+/* Onboarding Join Screen Main Action Title */
+"onboarding.mainActionTitle.joinScreen" = "Join the Community";
+
+/* Onboarding Skip Button Title */
+"onboarding.secondaryActionTitle.skip" = "<bold>Skip for now</bold>";
+
+/* Onboarding Join Screen Secondary Action Button Title. */
+"onboarding.secondaryActionTitle.joinScreen" = "Already have an account? <bold>Sign<BON:noBreakSpace/>in.</bold>";
+
+/* Onboarding Join Screen Tertiary Action Button Title */
+"onboarding.tertiaryActionTitle.joinScreen" = "Join later";
+
+// SIGN UP
+
+/* Sign up title */
+"signup.title" = "Join the Community";
+
+/* Sign up email title */
+"signup.email.title" = "Email";
+
+/* Sign up email placeholder */
+"signup.email.placeholder" = "Enter your email address";
+
+/* Sign up password title */
+"signup.password.title" = "Password";
+
+/* Sign up password placeholder */
+"signup.password.placeholder" = "Create a password (8+ characters)";
+
+/* Sign up already have account button title */
+"signup.already.have.account.title" = "Already have an account? <bold>Sign in.</bold>";
+
+/* Sign up accessibility saving message */
+"signup.accessibility.saving.message" = "Creating your account";
+
+// SIGN IN
+
+/* Sign in title */
+"signin.title" = "Sign In";
+
+/* Sign in header */
+"signin.header" = "Please sign in";
+
+/* Sign in email title */
+"signin.email.title" = "Email";
+
+/* Sign in email placeholder */
+"signin.email.placeholder" = "Enter your email address";
+
+/* Sign in password title */
+"signin.password.title" = "Password";
+
+/* Sign in password placeholder */
+"signin.password.placeholder" = "Enter your password";
+
+/* Sign in forgot password button title */
+"signin.forgot.password.button.title" = "Forgot password?";
+
+/* Sign in accessibility saving message */
+"signin.accessibility.saving.message" = "Signing in";
+
+/* Sign in forgot password alert title */
+"signin.forgot.password.alert.title" = "Forgot Password";
+
+/* Sign in forgot password alert message */
+"signin.forgot.password.alert.message" = "Enter the email address associated with your account, and we’ll send you an email with instructions on how to reset your password.";
+
+/* Sign in forgot password alert success message */
+"signin.forgot.password.alert.success.message" = "We’ve sent an email to %@ with instructions on how to reset your password.";
+
+// SETTINGS
+
+/* Settings title */
+"settings.title" = "Menu"; 
+
+/* Settings section title account */
+"settings.section.title.account" = "Account";
+
+/* Settings sign in */
+"settings.sign.in" = "Sign In";
+
+/* Settings sign up */
+"settings.sign.up" = "Join the Community";
+
+/* Settings email */
+"settings.email" = "Email";
+
+/* Settings password */
+"settings.password" = "Password";
+
+/* Settings change password */
+"settings.change.password" = "Change Password";
+
+/* Settings Agency */
+"settings.agency" = "Bus Service";
+
+/* Settings location services */
+"settings.location.services" = "Location Services";
+
+/* Settings notifications */
+"settings.notifications" = "Notifications";
+
+/* Settings navigation helper */
+"settings.navigation.helper" = "Navigation Helper";
+
+/* Settings sign out */
+"settings.sign.out" = "Sign Out";
+
+/* Settings delete account */
+"settings.delete.account" = "Delete Account";
+
+/* Settings sign out alert message */
+"settings.sign.out.alert.message" = "Are you sure you want to sign out?";
+
+/* Settings navigation helper not set */
+"settings.navigation.helper.not.set" = "Choose";
+
+/* Settings navigation helper hint */
+"settings.navigation.helper.hint" = "We’ll use this app to route you to bus stops that are not nearby.";
+
+/* Settings navigation helper select message */
+"settings.navigation.helper.select.message" = "Which app would you like to use when navigating over longer distances?";
+
+/* Settings change email alert title */
+"settings.change.email.alert.title" = "Change Email";
+
+/* Settings change email alert message */
+"settings.change.email.alert.message" = "Change your email address and tap “Submit”";
+
+/* Settings change email alert placeholder */
+"settings.change.email.alert.placeholder" = "Enter email address";
+
+/* Settings change email alert success title */
+"settings.change.email.alert.success.title" = "Email Changed";
+
+/* Settings change email alert success message */
+"settings.change.email.alert.success.message" = "Your email has been changed to %@.";
+
+/* Settings change password alert title */
+"settings.change.password.alert.title" = "Change Password";
+
+/* Settings change password alert message */
+"settings.change.password.alert.message" = "Enter your current password and a new password, then tap “Submit”";
+
+/* Settings change password old field name */
+"settings.change.password.old.field.name" = "Current Password";
+
+/* Settings change password new field name */
+"settings.change.password.new.field.name" = "New Password";
+
+/* Settings change password alert old placeholder */
+"settings.change.password.alert.old.placeholder" = "Current password";
+
+/* Settings change password alert new placeholder */
+"settings.change.password.alert.new.placeholder" = "New password (min 8 characters)";
+
+/* Settings change password alert success title */
+"settings.change.password.alert.success.title" = "Password Changed";
+
+/* Settings change password alert success message */
+"settings.change.password.alert.success.message" = "Your password has been changed.";
+
+/* Settings change password alert failure title */
+"settings.change.password.alert.failure.title" = "Incorrect Password";
+
+/* Settings change password alert failure message */
+"settings.change.password.alert.failure.message" = "The existing password you entered was incorrect.";
+
+/* Settings delete account alert button title */
+"settings.delete.account.alert.button.title" = "Delete Account";
+
+/* Settings delete account alert message */
+"settings.delete.account.alert.message" = "Deleting your account will remove your ability to add any more clues or see any data about the clues you’ve already added. Note: This will NOT remove the clues you have already provided.";
+
+/* Settings about title */
+"settings.about.title" = "About BlindWays";
+
+/* Settings about perkins */
+"settings.about.perkins" = "Founded in 1829 as the first U.S. school of its kind, Perkins works globally to help children and adults who are blind reach their full potential through education and innovation.";
+
+/* Settings about learn more */
+"settings.about.learn.more" = "Learn More at Perkins.org";
+
+/* Settings about acknowledgements */
+"settings.about.acknowledgements" = "Acknowledgements";
+
+/* Settings about terms */
+"settings.about.terms" = "Terms & Conditions";
+
+/* Settings about copyright footer */
+"settings.about.copyright.footer" = "BlindWays is a trademark of Perkins School for the Blind. © 2016 Perkins School for the Blind";
+
+// AGENCIES
+
+/* Agencies screen title */
+"agencies.title" = "Choose a Bus Service";
+
+/* Agencies other service areas button title */
+"agencies.otherServiceAreas" = "Other Service Areas";
+
+/* Agencies changed bus label */
+"agencies.description.changed" = "It looks like you have changed cities. Would you like to use the nearby bus service?";
+
+/* Agencies nearby bus label */
+"agencies.description.nearby" = "Which nearby bus service would you like to use?";
+
+/* Agencies supported bus label */
+"agencies.description.supported" = "Which supported bus service would you like to use?";
+
+/* Agencies empty state: no results */
+"agencies.empty.state.no.results" = "There were no agencies found.";
+
+// STOPS
+
+/* Stops screen title */
+"stops.title" = "Select a Bus Stop";
+
+/* Stops screen back button - Nearby */
+"stops.back.button.title.nearby" = "Nearby";
+
+/* Stops screen back button - Saved */
+"stops.back.button.title.saved" = "Saved";
+
+/* Stops refresh button title */
+"stops.refresh.button.title" = "Refresh Stops";
+
+/* Spoken when VoiceOver user refreshes nearby stops */
+"stops.accessibility.refreshing.title" = "Loading: %@";
+
+/* Spoken when VoiceOver user is done refreshing stops */
+"stops.accessibility.did.refresh.title" = "Done loading stops, %d results.";
+
+/* Nearby stops segmented control title */
+"stops.nearby.title" = "Nearby stops";
+
+/* Saved stops segmented control title */
+"stops.saved.title" = "Saved stops";
+
+/* Stops route label title */
+"stops.cell.route.title" = "Route";
+
+/* Stops routes label title */
+"stops.cell.routes.title" = "Routes";
+
+/* Stops routes label title format*/
+"stops.cell.routes.title.format" = "%d Routes";
+
+/* Stops needs more clues label */
+"stops.cell.needs.more.clues.title" = "More Clues Needed";
+
+/* Stops empty state: no results */
+"stops.empty.state.no.results" = "There were no stops found.";
+
+/* Stops empty state: no nearby results */
+"stops.empty.state.no.nearby" = "There are no bus stops nearby.";
+
+/* Stops empty state: no saved results */
+"stops.empty.state.no.saved" = "You have not saved any stops. You can save a stop via the stop detail screen.";
+
+/* Stops empty state: location services not enabled */
+"stops.empty.state.location.services.disabled" = "Location services are required to identify nearby stops.";
+
+/* Stops empty state: location settings */
+"stops.empty.state.location.settings" = "Location Settings";
+
+/* Stops empty state: enable location */
+"stops.empty.state.enable.location" = "Enable Location Services";
+
+/* Stops arrivals title */
+"stops.arrivals.title" = "Arrivals";
+
+/* Stops arrivals minutes label format */
+"stops.arrivals.minutes.label.format" = "%d min";
+
+/* Stops arrivals route label format */
+"stops.arrivals.route.label.format" = "Route %@";
+
+/* Stops arrivals empty state: no data */
+"stops.arrivals.empty.state.no.data" = "There are currently no arrival times available for this route.";
+
+/* Spoken when VoiceOver user refreshes arrivals */
+"stops.arrivals.accessibility.refreshing.title" = "Refreshing arrival times";
+
+/* Spoken when VoiceOver user is done refreshing arrivals */
+"stops.arrivals.accessibility.did.refresh.title" = "Done refreshing arrival times, %d results.";
+
+/* Stops arrivals impending refresh singular seconds format */
+"stops.arrivals.next.refreshing.singular.seconds.format" = "Refreshing in %@ second";
+
+/* Stops arrivals impending refresh plural seconds format */
+"stops.arrivals.next.refreshing.plural.seconds.format" = "Refreshing in %@ seconds";
+
+// STOP DETAIL
+
+/* Stop detail accessibility loading title */
+"stop.detail.accessibility.loading.title" = "Loading stop details.";
+
+/* Stop detail arrivals loading title */
+"stop.detail.arrivals.loading.title" = "Checking arrival times…";
+
+/* Stop detail arrivals loading subtitle */
+"stop.detail.arrivals.loading.subtitle" = "This may take a few seconds.";
+
+/* Stop detail arrivals no results title */
+"stop.detail.arrivals.no.results.title" = "No upcoming bus arrivals.";
+
+/* Stop detail arrivals no results subtitle */
+"stop.detail.arrivals.no.results.subtitle" = "Check back later.";
+
+/* Stop detail arrivals title format */
+"stop.detail.arrivals.title" = "Next bus in %d min.";
+
+/* Stop detail arrivals title now */
+"stop.detail.arrivals.title.now" = "Next bus arriving now.";
+
+/* Stop detail arrivals title format */
+"stop.detail.arrivals.subtitle" = "Route %@ to %@";
+
+/* Stop detail location fetching title */
+"stop.detail.location.fetching.title" = "Acquiring your location…";
+
+/* Stop detail location fetching subtitle */
+"stop.detail.location.fetching.subtitle" = "This may take a few seconds.";
+
+/* Stop detail location accuracy bad */
+"stop.detail.location.accuracy.bad" = "GPS accuracy is bad.";
+
+/* Stop detail location accuracy fair */
+"stop.detail.location.accuracy.fair" = "GPS accuracy is fair.";
+
+/* Stop detail location accuracy good */
+"stop.detail.location.accuracy.good" = "GPS accuracy is good.";
+
+/* Stop detail location within ft */
+"stop.detail.location.within.ft" = "You are within %d ft.";
+
+/* Stop detail location within m */
+"stop.detail.location.within.m" = "You are within %d m.";
+
+/* Stop detail location mi away */
+"stop.detail.location.mi away" = "You are %@ mi away.";
+
+/* Stop detail location km away */
+"stop.detail.location.km away" = "You are %@ km away.";
+
+/* Stop detail location navigate subtitle */
+"stop.detail.location.navigate.subtitle" = "Get Directions";
+
+/* Stop detail location show map subtitle */
+"stop.detail.location.show.map.subtitle" = "Show map";
+
+/* Stop detail location navigate prompt title */
+"stop.detail.location.navigate.prompt.title" = "Navigate to Stop";
+
+/* Stop detail location navigate prompt subtitle */
+"stop.detail.location.navigate.prompt.subtitle" = "Which app would you like to use to navigate to %@?";
+
+/* Stop detail location navigate app name: Apple Maps */
+"stop.detail.location.navigate.app.name.apple" = "Apple Maps";
+
+/* Stop detail location navigate app name: BlindSquare */
+"stop.detail.location.navigate.app.name.blindsquare" = "BlindSquare";
+
+/* Stop detail location navigate app name: Google Maps */
+"stop.detail.location.navigate.app.name.google" = "Google Maps";
+
+/* Stop detail location disabled title */
+"stop.detail.location.disabled.title" = "Location services are not enabled.";
+
+/* Stop detail location disabled subtitle */
+"stop.detail.location.disabled.subtitle" = "Tap to go to location settings.";
+
+/* Stop detail location disabled enable subtitle */
+"stop.detail.location.disabled.enable.subtitle" = "Tap to enable location services.";
+
+/* Stop detail accessibility stop is saved title */
+"stop.detail.accessibility.stop.saved.title" = "Remove Saved Stop";
+
+/* Stop detail accessibility stop is saved hint */
+"stop.detail.accessibility.stop.saved.hint" = "Double tap to remove from your saved stops.";
+
+/* Stop detail accessibility stop is save title */
+"stop.detail.accessibility.stop.save.title" = "Save Stop";
+
+/* Stop detail accessibility stop is save hint */
+"stop.detail.accessibility.stop.save.hint" = "Double tap to save to your stops.";
+
+/* Stop detail accessibility arrivals action */
+"stop.detail.accessibility.arrivals.action" = "Double tap for more arrivals";
+
+/* Stop detail accessibility location icon label */
+"stop.detail.accessibility.location.icon.label" = "Current Location";
+
+/* Stop detail clueset before stop prefix */
+"stop.detail.clueset.prefix.before" = "Before the stop";
+
+/* Stop detail clueset closer to stop prefix */
+"stop.detail.clueset.prefix.closer" = "Closer to the stop";
+
+/* Stop detail clueset bus stop sign prefix */
+"stop.detail.clueset.prefix.bus.stop.sign" = "The bus stop sign is";
+
+/* Stop detail clueset beyond stop prefix */
+"stop.detail.clueset.prefix.beyond" = "Beyond the stop";
+
+/* Stop detail clueset further past stop far prefix */
+"stop.detail.clueset.prefix.further.past" = "Further past the stop";
+
+/* Stop detail clueset review far left stop prefix */
+"stop.detail.clueset.review.prefix.far.left" = "To the far left of the stop";
+
+/* Stop detail clueset review near left stop prefix */
+"stop.detail.clueset.review.prefix.near.left" = "To the near left";
+
+/* Stop detail clueset review bus stop prefix */
+"stop.detail.clueset.review.prefix.bus.stop" = "The bus stop sign is";
+
+/* Stop detail clueset review near right stop prefix */
+"stop.detail.clueset.review.prefix.near.right" = "To the near right of the stop";
+
+/* Stop detail clueset review far right stop prefix */
+"stop.detail.clueset.review.prefix.far.right" = "To the far right";
+
+/* Stop detail clueset accessibility empty before stop */
+"stop.detail.clueset.accessibility.empty.before" = "No clue before the stop";
+
+/* Stop detail clueset accessibility empty closer to stop */
+"stop.detail.clueset.accessibility.empty.closer" = "No clue closer to the stop";
+
+/* Stop detail clueset accessibility empty bus stop sign */
+"stop.detail.clueset.accessibility.empty.bus.stop.sign" = "No clue at the bus stop sign";
+
+/* Stop detail clueset accessibility empty beyond stop */
+"stop.detail.clueset.accessibility.empty.beyond" = "No clue beyond the stop";
+
+/* Stop detail clueset accessibility empty further past stop far */
+"stop.detail.clueset.accessibility.empty.further.past" = "No clue further past the stop";
+
+/* Stop detail clueset accessibility empty review far left stop */
+"stop.detail.clueset.accessibility.empty.review.far.left" = "No clue to the far left of the stop";
+
+/* Stop detail clueset accessibility empty review near left stop */
+"stop.detail.clueset.accessibility.empty.review.near.left" = "No clue to the near left";
+
+/* Stop detail clueset accessibility empty review bus stop */
+"stop.detail.clueset.accessibility.empty.review.bus.stop" = "No clue at the bus stop sign";
+
+/* Stop detail clueset accessibility empty review near right stop */
+"stop.detail.clueset.accessibility.empty.review.near.right" = "No clue to the near right of the stop";
+
+/* Stop detail clueset accessibility empty review far right stop */
+"stop.detail.clueset.accessibility.empty.review.far.right" = "No clue to the far right";
+
+/* Stop detail clueset bus stop empty */
+"stop.detail.clueset.prefix.bus.stop.empty" = "The bus stop sign";
+
+/* Stop detail clueset review empty suffix */
+"stop.detail.clueset.review.empty.suffix" = "no clue was provided";
+
+/* Stop detail add clue button title */
+"stop.detail.add.clue.button.title" = "Add Clue";
+
+/* Stop detail edit clue button title */
+"stop.detail.edit.clue.button.title" = "Edit Clue";
+
+/* Stop detail clue bus stop sign title */
+"stop.detail.clue.bus.stop.sign.title" = "Bus stop sign";
+
+/* Stop detail accessibility add clue hint */
+"stop.detail.accessibility.add.clue.hint" = "No clue available, double tap to add a clue.";
+
+/* Stop detail clue actions confirm title */
+"stop.detail.clue.actions.confirm.title" = "Confirm Clue";
+
+/* Stop detail clue actions rate as helpful title */
+"stop.detail.clue.actions.rate.helpful.title" = "Rate as Helpful";
+
+/* Stop detail clue actions report problem title */
+"stop.detail.clue.actions.report.problem.title" = "Report a Problem";
+
+/* Stop detail clue actions edit clue title */
+"stop.detail.clue.actions.edit.clue.title" = "Edit Clue";
+
+/* Stop detail clue actions delete clue title */
+"stop.detail.clue.actions.delete.clue.title" = "Delete Clue";
+
+/* Stop detail clue actions thanks title */
+"stop.detail.clue.actions.thanks.title" = "Confirmed!";
+
+/* Stop detail clue actions confirm thanks message */
+"stop.detail.clue.actions.confirm.thanks.message" = "Thank you for helping riders feel confident that they’re in the right place.";
+
+/* Stop detail clue actions report problem thanks message */
+"stop.detail.clue.actions.report.problem.thanks.message" = "We sincerely thank you for reporting a problem with this clue. We’ll have someone look into resolving the issue as soon as possible.";
+
+/* Stop detail clueset empty state no clues */
+"stop.detail.clueset.empty.state.no.clues.message" = "Physical clues help riders orient to the environment and feel confident that they’re in the right place.";
+
+/* Stop detail clueset empty state no clues action title */
+"stop.detail.clueset.empty.state.no.clues.action.title" = "Add Clues";
+
+/* Stop detail clueset header change button title */
+"stop.detail.clueset.header.change.button.title" = "Change";
+
+/* Stop detail clueset header accessibility change button hint */
+"stop.detail.clueset.header.accessibility.change.button.hint" = "Double tap to change direction.";
+
+/* Stop detail clueset header approaching left */
+"stop.detail.clueset.header.approaching.left" = "Approaching the stop with the street on your <underline>left.</underline>";
+
+/* Stop detail clueset header approaching right */
+"stop.detail.clueset.header.approaching.right" = "Approaching the stop with the street on your <underline>right.</underline>";
+
+/* Stop detail edit clueset clue header title far left */
+"stop.detail.edit.clueset.clue.header.title.far.left" = "Far left clue";
+
+/* Stop detail edit clueset clue header title near left */
+"stop.detail.edit.clueset.clue.header.title.near.left" = "Near left clue";
+
+/* Stop detail edit clueset clue header title bus stop */
+"stop.detail.edit.clueset.clue.header.title.bus.stop" = "Bus stop clue";
+
+/* Stop detail edit clueset clue header title near right */
+"stop.detail.edit.clueset.clue.header.title.near.right" = "Near right clue";
+
+/* Stop detail edit clueset clue header title far right */
+"stop.detail.edit.clueset.clue.header.title.far.right" = "Far right clue";
+
+/* Stop detail edit clueset title add */
+"stop.detail.edit.clueset.title.add" = "Add Clues";
+
+/* Stop detail edit clueset title edit */
+"stop.detail.edit.clueset.title.edit" = "Edit Clues";
+
+/* Stop detail edit clueset section header tip button title */
+"stop.detail.edit.clueset.section.header.tip.buttontitle" = "Tip";
+
+/* Stop detail edit clueset section header clue title */
+"stop.detail.edit.clueset.section.header.clue.title" = "Please face the street where the bus will be stopping.";
+
+/* Stop detail edit clueset section header bus stop sign clue title */
+"stop.detail.edit.clueset.section.header.clue.sign.title" = "Every bus stop is unique.";
+
+/* Stop detail edit clueset section header detail left far */
+"stop.detail.edit.clueset.section.header.detail.left.far" = "What is the <bold>second</bold> landmark to the <bold>left</bold> of the bus stop sign?";
+
+/* Stop detail edit clueset section header detail left near */
+"stop.detail.edit.clueset.section.header.detail.left.near" = "What is the <bold>first</bold> landmark to the <bold>left</bold> of the bus stop sign?";
+
+/* Stop detail edit clueset section header detail bus stop sign */
+"stop.detail.edit.clueset.section.header.detail.bus.stop.sign" = "<semibold>Please tell us about the bus stop sign.</semibold>";
+
+/* Stop detail edit clueset section header detail right near */
+"stop.detail.edit.clueset.section.header.detail.right.near" = "What is the <bold>first</bold> landmark to the <bold>right</bold> of the bus stop sign?";
+
+/* Stop detail edit clueset section header detail right far */
+"stop.detail.edit.clueset.section.header.detail.right.far" = "What is the <bold>second</bold> landmark to the <bold>right</bold> of the bus stop sign?";
+
+/* Stop detail edit clueset field on grass title*/
+"stop.detail.edit.clueset.field.on.grass.title" = "On grass or dirt";
+
+/* Stop detail edit clueset field along the curb title */
+"stop.detail.edit.clueset.field.along.curb.title" = "Along the curb";
+
+/* Stop detail edit clueset field away from curb Imperial title*/
+"stop.detail.edit.clueset.field.away.from.curb.imperial.title" = "5+ feet away from the curb";
+
+/* Stop detail edit clueset field away from curb metric title*/
+"stop.detail.edit.clueset.field.away.from.curb.metric.title" = "1.5+ meters away from the curb";
+
+/* Stop detail edit clueset field bus sign hint title*/
+"stop.detail.edit.clueset.field.bus.sign.hint.title" = "Enter details that help locate the bus stop sign";
+
+/* Stop detail clueset placement initial format (bus stop sign) */
+"stop.detail.clueset.placement.initial.format.bus.stop.sign" = "%1$@ %2$@";
+
+/* Stop detail clueset placement initial format (generic) */
+"stop.detail.clueset.placement.initial.format.generic" = "%1$@, %2$@";
+
+/* Stop detail clueset placement subsequent format */
+"stop.detail.clueset.placement.subsequent.format" = ", %@";
+
+/* Stop detail edit clueset section header other format */
+"stop.detail.edit.clueset.section.header.other.format" = "OTHER • %d characters";
+
+/* Stop detail edit clueset section header description format */
+"stop.detail.edit.clueset.section.header.description.format" = "DESCRIPTION • %d characters";
+
+/* Stop detail edit clueset section header placement title */
+"stop.detail.edit.clueset.section.header.placement.title" = "PLACEMENT";
+
+/* Stop detail edit clueset thanks title */
+"stop.detail.edit.clueset.thanks.title" = "Thank you";
+
+/* Stop detail edit clueset thanks message */
+"stop.detail.edit.clueset.thanks.message" = "You are helping real people get where they need to go!";
+
+/* Stop detail edit clueset other alert title */
+"stop.detail.edit.clueset.other.alert.title" = "Other Clue";
+
+/* Stop detail edit clueset other alert message */
+"stop.detail.edit.clueset.other.alert.message" = "Briefly describe the landmark. Avoid temporary landmarks like traffic cones. Example: “there are recycling bins.”";
+
+/* Stop detail edit clueset other alert placeholder */
+"stop.detail.edit.clueset.other.alert.placeholder" = "There is/are…";
+
+/* Stop detail edit clueset save error message */
+"stop.detail.edit.clueset.save.error.message" = "There was a problem encountered while trying to save your clues.";
+
+/* Stop detail delete clue save error message */
+"stop.detail.delete.clue.save.error.message" = "There was a problem encountered while trying to delete this clue.";
+
+/* Stop detail delete clue accessibility success message */
+"stop.detail.delete.clue.accessibility.success.message" = "Clue successfully deleted.";
+
+/* Stop detail edit clueset unsaved changes discard title */
+"stop.detail.edit.clueset.unsaved.changes.discard.title" = "Discard Changes";
+
+/* Stop detail edit clueset unsaved changes save title */
+"stop.detail.edit.clueset.unsaved.changes.save.title" = "Save Changes";
+
+/* Stop detail edit clueset capture location info message  */
+"stop.detail.edit.clueset.capture.location.info.message" = "Please stand directly at the bus stop sign to help improve our GPS accuracy.";
+
+/* Stop detail edit clueset capture location capture button title  */
+"stop.detail.edit.clueset.capture.location.capture.button.title" = "Okay, I’m at the sign";
+
+/* Stop detail edit clueset capture location skip button title  */
+"stop.detail.edit.clueset.capture.location.skip.button.title" = "Skip this step";
+
+/* Stop detail edit clueset capture location card loding title  */
+"stop.detail.edit.clueset.capture.location.card.loading.title" = "Locating…";
+
+/* Stop detail edit clueset capture location card thanks message  */
+"stop.detail.edit.clueset.capture.location.card.thanks.message" = "<bold>Got it!</bold> Next, we’ll ask you about physical landmarks, working outwards from the bus stop sign.";
+
+/* Button to jump to editing the next clue */
+"stop.detail.edit.clueset.next.clue.long" = "Next Clue";
+
+/* Short name for button to jump to editing the next clue */
+"stop.detail.edit.clueset.next.clue.short" = "Next";
+
+/* Button to skip editing the current clue */
+"stop.detail.edit.clueset.skip.clue.long" = "Skip Clue";
+
+/* Short name for button to skip editing the current clue */
+"stop.detail.edit.clueset.skip.clue.short" = "Skip";
+
+/* Stop detail edit clueset accessibility left far title */
+"stop.detail.edit.clueset.accessibility.left.far.title" = "Left of sign far clue";
+
+/* Stop detail edit clueset accessibility left near title */
+"stop.detail.edit.clueset.accessibility.left.near.title" = "Left of sign near clue";
+
+/* Stop detail edit clueset accessibility bus stop psign title */
+"stop.detail.edit.clueset.accessibility.bus.stop.sign.title" = "Bus stop sign clue";
+
+/* Stop detail edit clueset accessibility right near title */
+"stop.detail.edit.clueset.accessibility.right.near.title" = "Right of sign near clue";
+
+/* Stop detail edit clueset accessibility right near title */
+"stop.detail.edit.clueset.accessibility.right.far.title" = "Right of sign far clue";
+
+/* Stop detail edit clueset accessibility locating title */
+"stop.detail.edit.clueset.accessibility.locating.title" = "Acquiring your current location. This may take a few seconds.";
+
+/* Stop detail account required title */
+"stop.detail.account.required.title" = "Account Required";
+
+/* Stop detail edit clues account required message */
+"stop.detail.edit.clues.account.required.message" = "In order to add or edit clues, you must be signed in to a BlindWays account.";
+
+/* Stop detail save stops account required message */
+"stop.detail.save.stops.account.required.message" = "In order to save stops, you must be signed in to a BlindWays account.";
+
+/* Stop detail account required sign up button title */
+"stop.detail.account.required.sign.up.button.title" = "Join";
+
+/* Stop detail account required sign in button title */
+"stop.detail.account.required.sign.in.button.title" = "Sign In";
+
+/* Stops empty state: saved account required */
+"stops.empty.state.saved.account.required" = "You must be signed in to a valid user account in order to save stops.";
+
+/* Stop detail edit clueset review title */
+"stop.detail.edit.clueset.review.title" = "Review";
+
+/* Stop detail edit clueset review header */
+"stop.detail.edit.clueset.review.header" = "From left to right, the clues are:";
+
+/* Stop detail edit clueset review help accessibility label */
+"stop.detail.edit.clueset.review.help.accessibility.label" = "Help";
+
+/* Stop detail edit clueset review notes prompt */
+"stop.detail.edit.clueset.review.notes.prompt" = "Any other features to help a blind person positively identify the stop?";
+
+/* Stop detail edit clueset review notes placeholder */
+"stop.detail.edit.clueset.review.notes.placeholder" = "Enter optional notes";
+
+/* Stop detail edit clueset review notes characters format singular */
+"stop.detail.edit.clueset.review.notes.characters.format.singular" = "%d character";
+
+/* Stop detail edit clueset review notes characters format plural */
+"stop.detail.edit.clueset.review.notes.characters.format.plural" = "%d characters";
+
+/* Stop detail edit clueset review notes accessibility characters announcement */
+"stop.detail.edit.clueset.review.notes.accessibility.characters.announcement" = "%d characters remaining (maximum of 140 characters)";
+
+/* Stop detail accessibility out of range warning */
+"stop.detail.accessibility.out.of.range.warning" = "Warning, you have left the general vicinity of the bus stop.";
+
+// MAP
+
+/* Map screen title */
+"map.title" = "Map";
+
+// ROUTES
+
+/* Routes search back button title */
+"routes.search.back.button.title" = "Results";
+
+/* Routes search placeholder title */
+"routes.search.placeholder.title" = "Enter a route number.";
+
+/* Routes search message for when there are no search results */
+"routes.search.no.results.message" = "No results for “%@<tightKerning>.”</tightKerning>";
+
+/* Routes search accessibility message for when there are no search results */
+"routes.search.no.results.accessibility.message" = "No results for “%@";
+
+/* Routes search subtitle for when there are no search results */
+"routes.search.no.results.subtitle" = "Please enter another route number.";
+
+/* Route stops title format */
+"route.stops.title.format" = "%@ to %@";
+
+/* Route outbound label */
+"route.outbound.label" = "Outbound";
+
+/* Route inbound label */
+"route.inbound.label" = "Inbound";
+
+/* "To" destination format string */
+"route.to.destination.format" = "To %@";
+
+/* Spoken when VoiceOver user searches routes */
+"routes.accessibility.searching.title" = "Searching for routes.";
+
+/* Spoken when VoiceOver user is done searching routes */
+"routes.accessibility.did.search.title" = "Done searching routes, %d results.";
+
+// GUIDE
+
+/* Guide Title */
+"guide.title" = "Guide";
+
+/* Guide Section - Hints */
+"guide.section.hints" = "Hints";
+
+/* Guide Message - fixtures */
+"guide.message.fixtures" = "Describe permanent conditions or fixtures that are easy to recognize by touch and with a cane.";
+
+/* Guide Message - landmarks - Imperial */
+"guide.message.landmarks.imperial" = "Note landmarks that are near the ground within about 30 feet.";
+
+/* Guide Message - landmarks - Metric */
+"guide.message.landmarks.metric" = "Note landmarks that are near the ground within about 10 meters.";
+
+/* Guide Message - features */
+"guide.message.features" = "Consider features that make this bus stop unique or unusual.";
+
+/* Guide Message - casual */
+"guide.message.casual" = "Use casual language, like you would describe it out loud to a friend.";
+
+/* Guide Message - visual */
+"guide.message.visual" = "Instead of visual qualities like color, notice things like size, material, texture, and distance.";
+
+/* Guide Section - Examples */
+"guide.section.examples" = "Example Notes";
+
+/* Guide Example - good */
+"guide.example.good" = "Sign is next to a raised flowerbed. The bus actually stops about 10 feet before, by the bottom of the stone steps.";
+
+/* Guide example - bad */
+"guide.example.bad" = "Crowded stop, near a blue dumpster across the street from the clock tower.";
+
+/* Guide example accessibility prefix - Helpful */
+"guide.example.accessibility.prefix.helpful" = "Example of a helpful note: %@";
+
+/* Guide example accessibility prefix - Unhelpful */
+"guide.example.accessibility.prefix.unhelpful" = "Example of an unhelpful note: %@";

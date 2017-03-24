@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'fastlane', '~>2.9.0'
+gem 'CFPropertyList'
+gem 'sqlite3'
+gem 'cocoapods', '~>1.1.0'

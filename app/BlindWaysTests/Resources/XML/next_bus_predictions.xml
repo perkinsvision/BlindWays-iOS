@@ -1,0 +1,15 @@
+<body copyright="All data copyright MBTA 2016.">
+    <predictions agencyTitle="MBTA" routeTitle="93" routeTag="93" stopTitle="Devonshire St @ Milk St" stopTag="6548">
+        <direction title="Sullivan">
+            <prediction epochTime="1459345200000" seconds="295" minutes="4" isDeparture="true" affectedByLayover="true" dirTag="93_0_var1" vehicle="1446" block="G89_3" tripTag="30502327"/>
+            <prediction epochTime="1459346100000" seconds="1195" minutes="19" isDeparture="true" affectedByLayover="true" dirTag="93_0_var1" vehicle="1426" block="G93_45" tripTag="30501103"/>
+            <prediction epochTime="1459347000000" seconds="2095" minutes="34" isDeparture="true" affectedByLayover="true" dirTag="93_0_var1" vehicle="1448" block="G93_38" tripTag="30501169"/>
+            <prediction epochTime="1459348800000" seconds="3895" minutes="64" isDeparture="true" affectedByLayover="true" dirTag="93_0_var1" vehicle="1446" block="G89_3" tripTag="30501091"/>
+            <prediction epochTime="1459349700000" seconds="4795" minutes="79" isDeparture="true" affectedByLayover="true" dirTag="93_0_var1" vehicle="1426" block="G93_45" tripTag="30501168"/>
+        </direction>
+        <direction title="Sullivan via Navy Yard">
+            <prediction epochTime="1459345200000" seconds="295" minutes="4" isDeparture="true" affectedByLayover="true" dirTag="93_0_var1" vehicle="1446" block="G89_3" tripTag="30502327"/>
+            <prediction epochTime="1459349700000" seconds="4795" minutes="79" isDeparture="true" affectedByLayover="true" dirTag="93_0_var1" vehicle="1426" block="G93_45" tripTag="30501168"/>
+        </direction>
+    </predictions>
+</body>

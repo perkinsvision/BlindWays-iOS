@@ -1,0 +1,47 @@
+ [
+  {
+  "fare_url": null,
+  "lang": "EN",
+  "name": "MBTA",
+  "phone": "617-222-3200",
+  "timezone": "America/New_York",
+  "url": "http://www.mbta.com",
+  "gtfs_id": "1",
+  "id": 1,
+  "city": "Boston",
+  "state": "MA",
+  "lat": 42.3568145698331,
+  "lng": -71.0572496988541,
+  "next_bus_agency_id": "mbta"
+  },
+  {
+  "fare_url": null,
+  "lang": "EN",
+  "name": "Massport",
+  "phone": "1-800-23-LOGAN",
+  "timezone": "America/New_York",
+  "url": "http://www.massport.com",
+  "gtfs_id": "2",
+  "id": 2,
+  "city": null,
+  "state": null,
+  "lat": null,
+  "lng": null,
+  "next_bus_agency_id": "massport"
+  },
+  {
+  "fare_url": null,
+  "lang": "EN",
+  "name": "Cape Cod Regional Transit Authority",
+  "phone": "800-352-7155",
+  "timezone": "America/New_York",
+  "url": "http://www.capecodrta.org/",
+  "gtfs_id": "3",
+  "id": 3,
+  "city": null,
+  "state": null,
+  "lat": null,
+  "lng": null,
+  "next_bus_agency_id": "tbd"
+  }
+  ]
